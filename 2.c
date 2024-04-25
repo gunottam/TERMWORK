@@ -65,7 +65,7 @@ void pp(struct student s[],int r, int i){
 	if(s[i].rollno == r)
 		printf("%d %s %s %s %d",s[i].rollno,s[i].name,s[i].department,s[i].course,s[i].year);
 	
-	pp(s,--i);
+	pp(s,r,--i);
 	}
 	
 	
